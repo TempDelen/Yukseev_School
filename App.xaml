@@ -1,0 +1,16 @@
+﻿<Application x:Class="Yukseev_SchoolApp.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Yukseev_SchoolApp"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        
+        <SolidColorBrush x:Key="ColorSecondary" Color="#FFE7FABF"/>
+        <SolidColorBrush x:Key="ColorAccent" Color="#FF04A0FF"/>
+
+        <Style TargetType="TextBlock">
+            <Setter Property="FontFamily" Value="Comic Sans MS"/>
+        </Style>
+            
+    </Application.Resources>
+</Application>
