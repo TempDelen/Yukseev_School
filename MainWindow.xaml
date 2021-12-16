@@ -8,17 +8,16 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="60"/>
+            <RowDefinition Height="85"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="60"/>
         </Grid.RowDefinitions>
-
-        <Grid Grid.Row="0" Background="{StaticResource ColorSecondary}">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="35*"/>
-                <ColumnDefinition Width="361*"/>
-            </Grid.ColumnDefinitions>
-        </Grid>
+        <Grid Grid.Row="0" Background="{StaticResource ColorSecondary}"/>
+        <Image Source="Images/school_logo.png" HorizontalAlignment="Left"></Image>
+        <TextBlock Text="{Binding ElementName=FrameMain, Path=Content.Title}" Grid.Column="1" HorizontalAlignment="Center" FontSize="34"></TextBlock>
         <Grid Grid.Row="2" Background="{StaticResource ColorSecondary}"/>
+        <Frame x:Name="FrameMain" NavigationUIVisibility="Hidden" Grid.Row="1"/>
+
+
     </Grid>
 </Window>

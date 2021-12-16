@@ -8,10 +8,9 @@ using System.Windows;
 
 namespace Yukseev_SchoolApp
 {
-    /// <summary>
-    /// Логика взаимодействия для App.xaml
-    /// </summary>
     public partial class App : Application
     {
+        public static Entities.user17_1Entities Context
+        { get; } = new Entities.user17_1Entities();
     }
 }

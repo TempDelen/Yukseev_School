@@ -10,6 +10,7 @@
 
         <Style TargetType="TextBlock">
             <Setter Property="FontFamily" Value="Comic Sans MS"/>
+            <Setter Property="FontSize" Value="12"/>
         </Style>
             
     </Application.Resources>
